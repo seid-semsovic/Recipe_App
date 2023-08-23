@@ -13,7 +13,7 @@ export const state = {
   },
   bookmarks: [],
 };
-console.log('Hacked');
+
 const createRecipeObject = function (data) {
   const { recipe } = data.data;
   return {
