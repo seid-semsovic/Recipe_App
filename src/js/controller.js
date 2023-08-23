@@ -56,6 +56,7 @@ const controlSearchResults = async function () {
   }
 };
 
+console.log('Sekaaa1999');
 const controlPagination = function (goToPage) {
   // 1) Render NEW results
   resultsView.render(model.getSearchResultsPage(goToPage));
